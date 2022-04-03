@@ -7,6 +7,7 @@ import Portfolio from './Components/Portfolio';
 // import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import mypic from './image/mypic.jpg'
 
 class App extends Component {
   constructor(props){
@@ -36,9 +37,10 @@ class App extends Component {
       "main": {
         "name": "Nand Kumar",
         "occupation": "Student",
-        "description": "Currently studying a B.Tech in Computer Science and Engineering at the Dronacharya College of Engineering.",
-        "image": "https://avatars0.githubusercontent.com/u/18393831?v=3&u=ef3575617707cad0977e3d3ebf653e8a784779e4&s=400",
-        "bio": "My name is Nand Kumar, I'm twenty-one years old and currently in my third year at the Dronacharya College of Engineering attending the B.Tech CSE. I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies such as Python, JavaScript, React, C#, Java, Node.js, MongoDB, MySQL, and many more.",
+        // "description": "Currently studying a B.Tech in Computer Science and Engineering at the Dronacharya College of Engineering.",
+        "description": "Third year CS student ,who loves to working on algorithm and their visualization emphasising on writing readable code. Full Stack Web Developer with excellent problem solving skills and ability to perform well in a team.",
+        "image": mypic,
+        "bio": "My name is Nand Kumar, I'm twenty-one years old and currently in my third year at the Dronacharya College of Engineering attending B.Tech CSE. I'm Hard working and work on my own initiative. I started programming during the lockdown in 2020, in C++, where I learned for one years before branching out into other technologies such as Python, JavaScript, React, C#, Java, Node.js, MongoDB, MySQL, and many more.",
         "email": "nknittin16436@outlook.com",
         "phone": "+91 9625391880",
         "contact": "If you have any questions or would just like to chat feel free to contact me.",
@@ -125,11 +127,11 @@ class App extends Component {
           },
           {
             "name": "HTML5",
-            "level": "66%"
+            "level": "80%"
           },
           {
             "name": "CSS",
-            "level": "60%"
+            "level": "90%"
           },
           {
             "name": "JSON",
@@ -154,7 +156,7 @@ class App extends Component {
           },
           {
             "name": "Redux",
-            "level": "30%"
+            "level": "50%"
           },
           {
             "name": "Java",
