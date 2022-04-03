@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class About extends Component {
   render() {
     if(this.props.data){
@@ -8,7 +7,7 @@ class About extends Component {
         var bio = this.props.data.bio;
         var street = this.props.data.address.street;
         var city = this.props.data.address.city;
-        var area = this.props.data.address.area;
+        var state = this.props.data.address.state;
         var country = this.props.data.address.country;
         var phone = this.props.data.phone;
         var email = this.props.data.email;
@@ -17,6 +16,7 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
+            {/* <img className="profile-pic"  src='../images/profilepic' alt="" /> */}
             <img className="profile-pic"  src={image} alt="" />
          </div>
          <div className="nine columns main-col">
@@ -30,12 +30,12 @@ class About extends Component {
 						   <span>{name}</span><br />
 						   <span>
                  {street}, <br />
-                  {area}, <br />
 						      {city},<br />
+						      {state},<br />
                   {country}<br />
                      </span>
-						  <span><a href="tel:0831880578">{phone}</a></span><br />
-              <span><a className="emailLink" href="mailto:Joshcassidy79@gmail.com">{email}</a></span>
+						  <span><a href="tel:9625391880">{phone}</a></span><br />
+              <span><a className="emailLink" href="mailto:nknittin16436@outlook.com">{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">
