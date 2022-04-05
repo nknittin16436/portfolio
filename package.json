@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
-  "homepage": "http://nknittin16436.github.io/nand-kumar",
+  "homepage": "https://nknittin16436.github.io/portfolio",
   "private": true,
   "dependencies": {
     "jquery": "^3.2.1",
